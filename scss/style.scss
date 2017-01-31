@@ -1,8 +1,14 @@
+$baseBackground: #e6e7ff;
+$nav: #6670ff;
+$header: #0062ff;
+$baseFont: "Comic Sans MS", cursive, sans-serif;
+$heading: #ff6666;
+
 body {
     width: 100%;
     margin: auto 0;
-    background-color: whitesmoke;
-    font-family: serif;
+    background-color: $baseBackground;
+    font-family: $baseFont;
 }
 
 header {
@@ -11,14 +17,14 @@ header {
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 10px;
-    background-color: #303C40;
+    background-color: $header;
     color: white;
 }
 
 .navigation {
     width: 100%;
     margin: 0 auto;
-    background-color: lightblue;
+    background-color: $nav;
     padding-bottom: .5%;
     padding-top: .5%;
 }
@@ -27,7 +33,7 @@ nav ul li {
     display: inline;
     padding: 4%;
     font-size: 1.25em;
-    font-family: serif;
+    font-family: $baseFont;
 }
 
 nav ul a:link {
@@ -71,4 +77,8 @@ footer a {
 
 footer a:hover {
     color: aliceblue;
+}
+
+h2 {
+    color: $heading;
 }
