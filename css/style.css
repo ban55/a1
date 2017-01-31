@@ -1,4 +1,4 @@
-/* line 7, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 9, /Users/BenNoll/Desktop/a1/scss/style.scss */
 body {
   width: 100%;
   margin: auto 0;
@@ -6,27 +6,27 @@ body {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/* line 14, /Users/BenNoll/Desktop/a1/scss/style.scss */
-header {
+/* line 16, /Users/BenNoll/Desktop/a1/scss/style.scss */
+header, footer, footer a {
   width: 100%;
   margin: 0 auto;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-left: 10px;
-  background-color: #0062ff;
+  background-color: #003b99;
   color: white;
 }
 
-/* line 24, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 26, /Users/BenNoll/Desktop/a1/scss/style.scss */
 .navigation {
   width: 100%;
   margin: 0 auto;
-  background-color: #6670ff;
+  background-color: white;
   padding-bottom: .5%;
   padding-top: .5%;
 }
 
-/* line 32, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 34, /Users/BenNoll/Desktop/a1/scss/style.scss */
 nav ul li {
   display: inline;
   padding: 4%;
@@ -34,58 +34,57 @@ nav ul li {
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-/* line 39, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 41, /Users/BenNoll/Desktop/a1/scss/style.scss */
 nav ul a:link {
   text-decoration: none;
   color: black;
 }
 
-/* line 44, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 46, /Users/BenNoll/Desktop/a1/scss/style.scss */
 nav ul a:visited {
   text-decoration: none;
   color: #60787F;
 }
 
-/* line 49, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 51, /Users/BenNoll/Desktop/a1/scss/style.scss */
 nav li a:hover {
   text-decoration: none;
   color: aliceblue;
 }
 
-/* line 54, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 56, /Users/BenNoll/Desktop/a1/scss/style.scss */
 .content {
+  background-color: aliceblue;
   width: 80%;
   margin: 0 auto;
   margin-top: 2%;
 }
 
-/* line 60, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 63, /Users/BenNoll/Desktop/a1/scss/style.scss */
 .content img {
   width: 50%;
 }
 
-/* line 64, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 67, /Users/BenNoll/Desktop/a1/scss/style.scss */
 footer {
   width: 100%;
   margin: 0 auto;
   padding: 5px;
-  background-color: #60787F;
-  color: aliceblue;
   text-align: center;
 }
 
-/* line 73, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 77, /Users/BenNoll/Desktop/a1/scss/style.scss */
 footer a {
   text-decoration: none;
   color: black;
 }
 
-/* line 78, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 83, /Users/BenNoll/Desktop/a1/scss/style.scss */
 footer a:hover {
   color: aliceblue;
 }
 
-/* line 82, /Users/BenNoll/Desktop/a1/scss/style.scss */
+/* line 87, /Users/BenNoll/Desktop/a1/scss/style.scss */
 h2 {
   color: #ff6666;
 }

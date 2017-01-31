@@ -3,6 +3,8 @@ $nav: #6670ff;
 $header: #0062ff;
 $baseFont: "Comic Sans MS", cursive, sans-serif;
 $heading: #ff6666;
+$color-background: lighten($nav, 40);
+$color-header: darken($header, 20);
 
 body {
     width: 100%;
@@ -17,14 +19,14 @@ header {
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 10px;
-    background-color: $header;
+    background-color: $color-header;
     color: white;
 }
 
 .navigation {
     width: 100%;
     margin: 0 auto;
-    background-color: $nav;
+    background-color: $color-background;
     padding-bottom: .5%;
     padding-top: .5%;
 }
@@ -52,6 +54,7 @@ nav li a:hover {
 }
 
 .content {
+    background-color: aliceblue;
     width: 80%;
     margin: 0 auto;
     margin-top: 2%;
@@ -65,14 +68,16 @@ footer {
     width: 100%;
     margin: 0 auto;
     padding: 5px;
-    background-color: #60787F;
-    color: aliceblue;
+    //background-color: #60787F;
+    //color: aliceblue;
     text-align: center;
+    @extend header;
 }
 
 footer a {
     text-decoration: none;
     color: black;
+    @extend header;
 }
 
 footer a:hover {
@@ -81,4 +86,8 @@ footer a:hover {
 
 h2 {
     color: $heading;
+}
+
+@mixin content($Color:green){
+   background-color: $Color;  
 }
