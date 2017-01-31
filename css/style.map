@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"body {\n    width: 100%;\n    margin: auto 0;\n    background-color: whitesmoke;\n    font-family: serif;\n}\n\nheader {\n    width: 100%;\n    margin: 0 auto;\n    padding-top: 1px;\n    padding-bottom: 1px;\n    padding-left: 10px;\n    background-color: #303C40;\n    color: white;\n}\n\n.navigation {\n    width: 100%;\n    margin: 0 auto;\n    background-color: lightblue;\n    padding-bottom: .5%;\n    padding-top: .5%;\n}\n\nnav ul li {\n    display: inline;\n    padding: 4%;\n    font-size: 1.25em;\n    font-family: serif;\n}\n\nnav ul a:link {\n    text-decoration: none;\n    color: black;\n}\n\nnav ul a:visited {\n    text-decoration: none;\n    color: #60787F;\n}\n\nnav li a:hover {\n    text-decoration: none;\n    color: aliceblue;\n}\n\n.content {\n    width: 80%;\n    margin: 0 auto;\n    margin-top: 2%;\n}\n\n.content img {\n    width: 50%;\n}\n\nfooter {\n    width: 100%;\n    margin: 0 auto;\n    padding: 5px;\n    background-color: #60787F;\n    color: aliceblue;\n    text-align: center;\n}\n\nfooter a {\n    text-decoration: none;\n    color: black;\n}\n\nfooter a:hover {\n    color: aliceblue;\n}"
+	],
+	"mappings": ";AAAA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,MAAO;EACf,gBAAgB,EAAE,UAAW;EAC7B,WAAW,EAAE,KAAM;CACtB;;;AAED,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,MAAO;EACf,WAAW,EAAE,GAAI;EACjB,cAAc,EAAE,GAAI;EACpB,YAAY,EAAE,IAAK;EACnB,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAAE,KAAM;CAChB;;;AAED,AAAA,WAAW,CAAC;EACR,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,MAAO;EACf,gBAAgB,EAAE,SAAU;EAC5B,cAAc,EAAE,GAAI;EACpB,WAAW,EAAE,GAAI;CACpB;;;AAED,AAAO,GAAJ,CAAC,EAAE,CAAC,EAAE,CAAC;EACN,OAAO,EAAE,MAAO;EAChB,OAAO,EAAE,EAAG;EACZ,SAAS,EAAE,MAAO;EAClB,WAAW,EAAE,KAAM;CACtB;;;AAED,AAAQ,GAAL,CAAC,EAAE,CAAC,CAAC,AAAA,KAAK,CAAC;EACV,eAAe,EAAE,IAAK;EACtB,KAAK,EAAE,KAAM;CAChB;;;AAED,AAAQ,GAAL,CAAC,EAAE,CAAC,CAAC,AAAA,QAAQ,CAAC;EACb,eAAe,EAAE,IAAK;EACtB,KAAK,EAAE,OAAQ;CAClB;;;AAED,AAAQ,GAAL,CAAC,EAAE,CAAC,CAAC,AAAA,MAAM,CAAC;EACX,eAAe,EAAE,IAAK;EACtB,KAAK,EAAE,SAAU;CACpB;;;AAED,AAAA,QAAQ,CAAC;EACL,KAAK,EAAE,GAAI;EACX,MAAM,EAAE,MAAO;EACf,UAAU,EAAE,EAAG;CAClB;;;AAED,AAAS,QAAD,CAAC,GAAG,CAAC;EACT,KAAK,EAAE,GAAI;CACd;;;AAED,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,MAAO;EACf,OAAO,EAAE,GAAI;EACb,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAAE,SAAU;EACjB,UAAU,EAAE,MAAO;CACtB;;;AAED,AAAO,MAAD,CAAC,CAAC,CAAC;EACL,eAAe,EAAE,IAAK;EACtB,KAAK,EAAE,KAAM;CAChB;;;AAED,AAAQ,MAAF,CAAC,CAAC,AAAA,MAAM,CAAC;EACX,KAAK,EAAE,SAAU;CACpB",
+	"names": []
+}
