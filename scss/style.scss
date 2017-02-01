@@ -53,6 +53,14 @@ nav li a:hover {
     color: aliceblue;
 }
 
+@mixin border($width: 600px, $height: 200px, $Color:green, $border: 50px, $borderStyle: solid){
+    width: $width;
+    height: $height;
+   border-color: $Color; 
+    border-radius: $border;
+    border-style: $borderStyle;
+}
+
 .content {
     background-color: aliceblue;
     width: 80%;
@@ -62,6 +70,8 @@ nav li a:hover {
 
 .content img {
     width: 50%;
+    @include border($width: 500px, $height: 250px, $Color:green, $border: 50px, $borderStyle: solid);
+    
 }
 
 footer {
@@ -86,8 +96,4 @@ footer a:hover {
 
 h2 {
     color: $heading;
-}
-
-@mixin content($Color:green){
-   background-color: $Color;  
 }
